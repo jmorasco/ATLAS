@@ -1,0 +1,61 @@
+name: ATLAS — Refresh Free Market Data and Deploy
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'site/**'
+      - 'scripts/**'
+      - '.github/workflows/deploy-pages.yml'
+  schedule:
+    - cron: '17 */2 * * *'
+  workflow_dispatch:
+concurrency:
+  group: atlas-pages
+  cancel-in-progress: false
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Checkout source
+        uses: actions/checkout@v4
+      - name: Configure Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Validate source
+        run: |
+          node --check site/app.js
+          node --check scripts/refresh-public.mjs
+      - name: Refresh authorized public-source observations
+        run: node scripts/refresh-public.mjs
+      - name: Persist verified observations
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add site/data/market-snapshot.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Update ATLAS market reference snapshot [skip ci]"
+            git push
+          fi
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+      - name: Upload static site
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: ./site
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Publish ATLAS
+        id: deployment
+        uses: actions/deploy-pages@v4
