@@ -1,0 +1,12 @@
+{
+  "version": "4.1",
+  "mode": "public-static",
+  "generatedAt": null,
+  "quotes": {},
+  "treasury": null,
+  "health": {
+    "available": 0,
+    "total": 11
+  },
+  "policy": "Initial empty snapshot. The scheduled workflow obtains public verified data; no fabricated values."
+}
