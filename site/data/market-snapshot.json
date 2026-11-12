@@ -1,7 +1,7 @@
 {
   "version": "4.1",
   "mode": "public-static",
-  "generatedAt": "2026-11-12T07:05:40.713Z",
+  "generatedAt": "2026-11-12T16:46:25.336Z",
   "quotes": {
     "DJIA": {
       "value": null,
@@ -1505,36 +1505,32 @@
       "source": "https://fred.stlouisfed.org/series/DCOILWTICO"
     },
     "GOLD": {
-      "value": 3972.899902,
-      "observedAt": "2026-11-12T07:05:31Z",
+      "value": 3872.600098,
+      "observedAt": "2026-11-12T16:46:06Z",
       "provider": "gold-api.com · XAU/USD",
       "quality": "spot",
       "source": "https://gold-api.com/"
     },
     "SILVER": {
-      "value": 51.522999,
-      "observedAt": "2026-11-12T07:05:31Z",
+      "value": 50.119999,
+      "observedAt": "2026-11-12T16:46:05Z",
       "provider": "gold-api.com · XAG/USD",
       "quality": "spot",
       "source": "https://gold-api.com/"
     },
     "BTCUSD": {
-      "value": 73518.34,
-      "observedAt": "2026-11-12T07:05:40.284562828Z",
+      "value": 71559.04,
+      "observedAt": "2026-11-12T16:46:25.848304199Z",
       "provider": "Coinbase Exchange BTC-USD",
       "quality": "exchange-spot",
       "source": "https://exchange.coinbase.com/trade/BTC-USD"
     },
     "VIX": {
-      "value": 19.46,
-      "observedAt": "2026-11-10",
+      "value": 17.49,
+      "observedAt": "2026-11-11",
       "provider": "FRED / VIXCLS",
       "quality": "official-daily",
       "history": [
-        {
-          "date": "2026-07-08",
-          "value": 16.9
-        },
         {
           "date": "2026-07-09",
           "value": 15.84
@@ -1890,9 +1886,13 @@
         {
           "date": "2026-11-10",
           "value": 19.46
+        },
+        {
+          "date": "2026-11-11",
+          "value": 17.49
         }
       ],
-      "changePercent": -2.309236947791169,
+      "changePercent": -10.123329907502582,
       "source": "https://fred.stlouisfed.org/series/VIXCLS"
     }
   },
