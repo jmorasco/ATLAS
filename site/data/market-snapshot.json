@@ -1,7 +1,7 @@
 {
   "version": "4.1",
   "mode": "public-static",
-  "generatedAt": "2026-11-16T01:59:45.156Z",
+  "generatedAt": "2026-11-16T09:34:42.164Z",
   "quotes": {
     "DJIA": {
       "value": null,
@@ -1505,22 +1505,22 @@
       "source": "https://fred.stlouisfed.org/series/DCOILWTICO"
     },
     "GOLD": {
-      "value": 3873.75,
-      "observedAt": "2026-11-16T01:59:27Z",
+      "value": 3861.469971,
+      "observedAt": "2026-11-16T09:34:28Z",
       "provider": "gold-api.com · XAU/USD",
       "quality": "spot",
       "source": "https://gold-api.com/"
     },
     "SILVER": {
-      "value": 47.483002,
-      "observedAt": "2026-11-16T01:59:27Z",
+      "value": 47.285,
+      "observedAt": "2026-11-16T09:34:27Z",
       "provider": "gold-api.com · XAG/USD",
       "quality": "spot",
       "source": "https://gold-api.com/"
     },
     "BTCUSD": {
-      "value": 64617.1,
-      "observedAt": "2026-11-16T01:59:44.956828482Z",
+      "value": 64336.67,
+      "observedAt": "2026-11-16T09:34:41.935939582Z",
       "provider": "Coinbase Exchange BTC-USD",
       "quality": "exchange-spot",
       "source": "https://exchange.coinbase.com/trade/BTC-USD"
