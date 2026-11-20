@@ -1,7 +1,7 @@
 {
   "version": "4.1",
   "mode": "public-static",
-  "generatedAt": "2026-11-19T18:59:29.870Z",
+  "generatedAt": "2026-11-20T01:45:47.663Z",
   "quotes": {
     "DJIA": {
       "value": null,
@@ -25,15 +25,11 @@
       "notice": "Index redistribution not enabled in free public mode. Open linked original source."
     },
     "US10Y": {
-      "value": 5.1,
-      "observedAt": "2026-11-17",
+      "value": 5.07,
+      "observedAt": "2026-11-18",
       "provider": "FRED / DGS10",
       "quality": "official-daily",
       "history": [
-        {
-          "date": "2026-07-10",
-          "value": 4.56
-        },
         {
           "date": "2026-07-13",
           "value": 4.62
@@ -389,21 +385,21 @@
         {
           "date": "2026-11-17",
           "value": 5.1
+        },
+        {
+          "date": "2026-11-18",
+          "value": 5.07
         }
       ],
-      "changePercent": -0.390625000000009,
+      "changePercent": -0.5882352941176345,
       "source": "https://fred.stlouisfed.org/series/DGS10"
     },
     "US30Y": {
-      "value": 5.46,
-      "observedAt": "2026-11-17",
+      "value": 5.41,
+      "observedAt": "2026-11-18",
       "provider": "FRED / DGS30",
       "quality": "official-daily",
       "history": [
-        {
-          "date": "2026-07-10",
-          "value": 5.06
-        },
         {
           "date": "2026-07-13",
           "value": 5.1
@@ -759,9 +755,13 @@
         {
           "date": "2026-11-17",
           "value": 5.46
+        },
+        {
+          "date": "2026-11-18",
+          "value": 5.41
         }
       ],
-      "changePercent": 0,
+      "changePercent": -0.9157509157509125,
       "source": "https://fred.stlouisfed.org/series/DGS30"
     },
     "BRENT": {
@@ -1505,22 +1505,22 @@
       "source": "https://fred.stlouisfed.org/series/DCOILWTICO"
     },
     "GOLD": {
-      "value": 3680.620117,
-      "observedAt": "2026-11-19T18:59:04Z",
+      "value": 3578.870117,
+      "observedAt": "2026-11-20T01:45:34Z",
       "provider": "gold-api.com · XAU/USD",
       "quality": "spot",
       "source": "https://gold-api.com/"
     },
     "SILVER": {
-      "value": 44.314999,
-      "observedAt": "2026-11-19T18:59:03Z",
+      "value": 41.908001,
+      "observedAt": "2026-11-20T01:45:34Z",
       "provider": "gold-api.com · XAG/USD",
       "quality": "spot",
       "source": "https://gold-api.com/"
     },
     "BTCUSD": {
-      "value": 62817.33,
-      "observedAt": "2026-11-19T18:59:29.165203668Z",
+      "value": 62021.17,
+      "observedAt": "2026-11-20T01:45:47.091566910Z",
       "provider": "Coinbase Exchange BTC-USD",
       "quality": "exchange-spot",
       "source": "https://exchange.coinbase.com/trade/BTC-USD"
