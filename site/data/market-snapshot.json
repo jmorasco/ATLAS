@@ -1,7 +1,7 @@
 {
   "version": "4.1",
   "mode": "public-static",
-  "generatedAt": "2026-11-22T21:45:03.318Z",
+  "generatedAt": "2026-11-23T02:42:56.726Z",
   "quotes": {
     "DJIA": {
       "value": null,
@@ -1508,19 +1508,20 @@
       "value": 3539,
       "observedAt": "2026-11-22T21:44:40Z",
       "provider": "gold-api.com · XAU/USD",
-      "quality": "spot",
-      "source": "https://gold-api.com/"
+      "quality": "stale",
+      "source": "https://gold-api.com/",
+      "notice": "Current refresh unsuccessful. Last verified observation retained."
     },
     "SILVER": {
-      "value": 41.080002,
-      "observedAt": "2026-11-22T21:44:39Z",
+      "value": 41.522999,
+      "observedAt": "2026-11-23T02:42:40Z",
       "provider": "gold-api.com · XAG/USD",
       "quality": "spot",
       "source": "https://gold-api.com/"
     },
     "BTCUSD": {
-      "value": 60946.17,
-      "observedAt": "2026-11-22T21:45:03.050370202Z",
+      "value": 60323.01,
+      "observedAt": "2026-11-23T02:42:57.372632226Z",
       "provider": "Coinbase Exchange BTC-USD",
       "quality": "exchange-spot",
       "source": "https://exchange.coinbase.com/trade/BTC-USD"
@@ -1901,6 +1902,8 @@
     "available": 8,
     "total": 11
   },
-  "failures": {},
+  "failures": {
+    "GOLD": "fetch failed"
+  },
   "policy": "No simulated values. Publicly restricted index values omitted. Provider timestamps and stale status retained."
 }
