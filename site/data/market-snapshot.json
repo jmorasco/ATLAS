@@ -1,7 +1,7 @@
 {
   "version": "4.1",
   "mode": "public-static",
-  "generatedAt": "2026-11-25T00:39:10.770Z",
+  "generatedAt": "2026-11-25T11:13:40.048Z",
   "quotes": {
     "DJIA": {
       "value": null,
@@ -1505,23 +1505,22 @@
       "source": "https://fred.stlouisfed.org/series/DCOILWTICO"
     },
     "GOLD": {
-      "value": 3628.699951,
-      "observedAt": "2026-11-24T14:49:14Z",
+      "value": 3526.800049,
+      "observedAt": "2026-11-25T11:13:15Z",
       "provider": "gold-api.com · XAU/USD",
-      "quality": "stale",
-      "source": "https://gold-api.com/",
-      "notice": "Current refresh unsuccessful. Last verified observation retained."
+      "quality": "spot",
+      "source": "https://gold-api.com/"
     },
     "SILVER": {
-      "value": 40.735001,
-      "observedAt": "2026-11-25T00:38:44Z",
+      "value": 40.060001,
+      "observedAt": "2026-11-25T11:13:15Z",
       "provider": "gold-api.com · XAG/USD",
       "quality": "spot",
       "source": "https://gold-api.com/"
     },
     "BTCUSD": {
-      "value": 59490.83,
-      "observedAt": "2026-11-25T00:39:09.981285007Z",
+      "value": 58678.14,
+      "observedAt": "2026-11-25T11:13:39.900778779Z",
       "provider": "Coinbase Exchange BTC-USD",
       "quality": "exchange-spot",
       "source": "https://exchange.coinbase.com/trade/BTC-USD"
@@ -1902,8 +1901,6 @@
     "available": 8,
     "total": 11
   },
-  "failures": {
-    "GOLD": "fetch failed"
-  },
+  "failures": {},
   "policy": "No simulated values. Publicly restricted index values omitted. Provider timestamps and stale status retained."
 }
