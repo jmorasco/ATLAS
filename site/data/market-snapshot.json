@@ -1,7 +1,7 @@
 {
   "version": "4.1",
   "mode": "public-static",
-  "generatedAt": "2026-11-25T11:13:40.048Z",
+  "generatedAt": "2026-11-25T21:37:58.601Z",
   "quotes": {
     "DJIA": {
       "value": null,
@@ -25,15 +25,11 @@
       "notice": "Index redistribution not enabled in free public mode. Open linked original source."
     },
     "US10Y": {
-      "value": 4.92,
-      "observedAt": "2026-11-23",
+      "value": 4.91,
+      "observedAt": "2026-11-24",
       "provider": "FRED / DGS10",
       "quality": "official-daily",
       "history": [
-        {
-          "date": "2026-07-16",
-          "value": 4.57
-        },
         {
           "date": "2026-07-17",
           "value": 4.55
@@ -389,21 +385,21 @@
         {
           "date": "2026-11-23",
           "value": 4.92
+        },
+        {
+          "date": "2026-11-24",
+          "value": 4.91
         }
       ],
-      "changePercent": 0,
+      "changePercent": -0.2032520325203209,
       "source": "https://fred.stlouisfed.org/series/DGS10"
     },
     "US30Y": {
-      "value": 5.29,
-      "observedAt": "2026-11-23",
+      "value": 5.3,
+      "observedAt": "2026-11-24",
       "provider": "FRED / DGS30",
       "quality": "official-daily",
       "history": [
-        {
-          "date": "2026-07-16",
-          "value": 5.09
-        },
         {
           "date": "2026-07-17",
           "value": 5.06
@@ -759,37 +755,21 @@
         {
           "date": "2026-11-23",
           "value": 5.29
+        },
+        {
+          "date": "2026-11-24",
+          "value": 5.3
         }
       ],
-      "changePercent": -0.3766478342749449,
+      "changePercent": 0.18903591682419257,
       "source": "https://fred.stlouisfed.org/series/DGS30"
     },
     "BRENT": {
-      "value": 92.94,
-      "observedAt": "2026-11-17",
+      "value": 91.8,
+      "observedAt": "2026-11-24",
       "provider": "FRED / DCOILBRENTEU",
       "quality": "official-daily",
       "history": [
-        {
-          "date": "2026-07-14",
-          "value": 83.69
-        },
-        {
-          "date": "2026-07-15",
-          "value": 83.08
-        },
-        {
-          "date": "2026-07-16",
-          "value": 81.23
-        },
-        {
-          "date": "2026-07-17",
-          "value": 85.01
-        },
-        {
-          "date": "2026-07-20",
-          "value": 86.99
-        },
         {
           "date": "2026-07-21",
           "value": 93.85
@@ -1129,37 +1109,37 @@
         {
           "date": "2026-11-17",
           "value": 92.94
+        },
+        {
+          "date": "2026-11-18",
+          "value": 92.88
+        },
+        {
+          "date": "2026-11-19",
+          "value": 95.17
+        },
+        {
+          "date": "2026-11-20",
+          "value": 92.76
+        },
+        {
+          "date": "2026-11-23",
+          "value": 91.2
+        },
+        {
+          "date": "2026-11-24",
+          "value": 91.8
         }
       ],
-      "changePercent": 0.04305705059202588,
+      "changePercent": 0.657894736842099,
       "source": "https://fred.stlouisfed.org/series/DCOILBRENTEU"
     },
     "WTI": {
-      "value": 89.53,
-      "observedAt": "2026-11-17",
+      "value": 82.24,
+      "observedAt": "2026-11-24",
       "provider": "FRED / DCOILWTICO",
       "quality": "official-daily",
       "history": [
-        {
-          "date": "2026-07-14",
-          "value": 80.44
-        },
-        {
-          "date": "2026-07-15",
-          "value": 80.73
-        },
-        {
-          "date": "2026-07-16",
-          "value": 80.03
-        },
-        {
-          "date": "2026-07-17",
-          "value": 83.43
-        },
-        {
-          "date": "2026-07-20",
-          "value": 84.38
-        },
         {
           "date": "2026-07-21",
           "value": 86.04
@@ -1499,42 +1479,58 @@
         {
           "date": "2026-11-17",
           "value": 89.53
+        },
+        {
+          "date": "2026-11-18",
+          "value": 86.81
+        },
+        {
+          "date": "2026-11-19",
+          "value": 86.78
+        },
+        {
+          "date": "2026-11-20",
+          "value": 87.59
+        },
+        {
+          "date": "2026-11-23",
+          "value": 81.42
+        },
+        {
+          "date": "2026-11-24",
+          "value": 82.24
         }
       ],
-      "changePercent": 0.32496638278799445,
+      "changePercent": 1.0071235568656265,
       "source": "https://fred.stlouisfed.org/series/DCOILWTICO"
     },
     "GOLD": {
-      "value": 3526.800049,
-      "observedAt": "2026-11-25T11:13:15Z",
+      "value": 3576,
+      "observedAt": "2026-11-25T21:37:47Z",
       "provider": "gold-api.com · XAU/USD",
       "quality": "spot",
       "source": "https://gold-api.com/"
     },
     "SILVER": {
-      "value": 40.060001,
-      "observedAt": "2026-11-25T11:13:15Z",
+      "value": 40.849998,
+      "observedAt": "2026-11-25T21:37:46Z",
       "provider": "gold-api.com · XAG/USD",
       "quality": "spot",
       "source": "https://gold-api.com/"
     },
     "BTCUSD": {
-      "value": 58678.14,
-      "observedAt": "2026-11-25T11:13:39.900778779Z",
+      "value": 60312.51,
+      "observedAt": "2026-11-25T21:37:58.813592335Z",
       "provider": "Coinbase Exchange BTC-USD",
       "quality": "exchange-spot",
       "source": "https://exchange.coinbase.com/trade/BTC-USD"
     },
     "VIX": {
-      "value": 26.62,
-      "observedAt": "2026-11-23",
+      "value": 26.36,
+      "observedAt": "2026-11-24",
       "provider": "FRED / VIXCLS",
       "quality": "official-daily",
       "history": [
-        {
-          "date": "2026-07-21",
-          "value": 17.05
-        },
         {
           "date": "2026-07-22",
           "value": 16.64
@@ -1890,9 +1886,13 @@
         {
           "date": "2026-11-23",
           "value": 26.62
+        },
+        {
+          "date": "2026-11-24",
+          "value": 26.36
         }
       ],
-      "changePercent": -25.828921705210362,
+      "changePercent": -0.9767092411720569,
       "source": "https://fred.stlouisfed.org/series/VIXCLS"
     }
   },
