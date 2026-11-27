@@ -1,7 +1,7 @@
 {
   "version": "4.1",
   "mode": "public-static",
-  "generatedAt": "2026-11-27T08:20:14.547Z",
+  "generatedAt": "2026-11-27T19:27:23.084Z",
   "quotes": {
     "DJIA": {
       "value": null,
@@ -1505,40 +1505,32 @@
       "source": "https://fred.stlouisfed.org/series/DCOILWTICO"
     },
     "GOLD": {
-      "value": 3662,
-      "observedAt": "2026-11-27T08:19:49Z",
+      "value": 3638.600098,
+      "observedAt": "2026-11-27T19:27:20Z",
       "provider": "gold-api.com · XAU/USD",
       "quality": "spot",
       "source": "https://gold-api.com/"
     },
     "SILVER": {
-      "value": 43.939999,
-      "observedAt": "2026-11-27T08:19:48Z",
+      "value": 43.165001,
+      "observedAt": "2026-11-27T19:27:19Z",
       "provider": "gold-api.com · XAG/USD",
       "quality": "spot",
       "source": "https://gold-api.com/"
     },
     "BTCUSD": {
-      "value": 62002.24,
-      "observedAt": "2026-11-27T08:20:15.260280043Z",
+      "value": 59899.39,
+      "observedAt": "2026-11-27T19:27:24.548089548Z",
       "provider": "Coinbase Exchange BTC-USD",
       "quality": "exchange-spot",
       "source": "https://exchange.coinbase.com/trade/BTC-USD"
     },
     "VIX": {
-      "value": 26.36,
-      "observedAt": "2026-11-24",
+      "value": 26.8,
+      "observedAt": "2026-11-26",
       "provider": "FRED / VIXCLS",
       "quality": "official-daily",
       "history": [
-        {
-          "date": "2026-07-22",
-          "value": 16.64
-        },
-        {
-          "date": "2026-07-23",
-          "value": 18.7
-        },
         {
           "date": "2026-07-24",
           "value": 18.58
@@ -1890,9 +1882,17 @@
         {
           "date": "2026-11-24",
           "value": 26.36
+        },
+        {
+          "date": "2026-11-25",
+          "value": 28.29
+        },
+        {
+          "date": "2026-11-26",
+          "value": 26.8
         }
       ],
-      "changePercent": -0.9767092411720569,
+      "changePercent": -5.266878755744074,
       "source": "https://fred.stlouisfed.org/series/VIXCLS"
     }
   },
